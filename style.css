@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Navigation bar styling */
+header{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: crimson;
+    font-family: 'Ubuntu',sans-serif;
+}
+nav{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 100%;
+}
+.header-logo a{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 650;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+    align-items: center;
+}
+.menu li a{
+    color: white;
+    font-size: 15px;
+}
+.contact-info{
+    color: white;
+    margin-right: 30px;
+}
+.contact-info li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.contact-info li a{
+    color: whitesmoke;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+.contact-info li a:hover{
+    color: rgb(71, 5, 5);
+}
+.contact-info .slash{
+    opacity: 0.5;
+}
+/* home section styling */
+.home{
+    display: flex;
+    background-image: url('/assets/images/bg.jpg');
+    height: 100vh;
+    color: white;
+    /* min-height: 500px; */
+}
